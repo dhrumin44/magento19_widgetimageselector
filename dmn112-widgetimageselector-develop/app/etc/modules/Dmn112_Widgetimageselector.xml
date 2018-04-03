@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Dmn112_Widgetimageselector>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Dmn112_Widgetimageselector>
+    </modules>
+</config>

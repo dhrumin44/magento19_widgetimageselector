@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Dmn112_Widgetimageselector>
+            <version>0.1.0</version>
+        </Dmn112_Widgetimageselector>
+    </modules>
+    <global>
+        <blocks>
+            <widgetimageselector>
+                <class>Dmn112_Widgetimageselector_Block</class>
+            </widgetimageselector>
+        </blocks>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <widgetimageselector before="Mage_Adminhtml">Dmn112_Widgetimageselector_Adminhtml</widgetimageselector>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <adminhtml>
+        <layout>
+            <updates>
+                <widgetimageselector>
+                    <file>dmn112/widgetimageselector.xml</file>
+                </widgetimageselector>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <dmn112_widgetimageselector>
+                    <files>
+                        <default>Dmn112_Widgetimageselector.csv</default>
+                    </files>
+                </dmn112_widgetimageselector>
+            </modules>
+        </translate>
+    </adminhtml>
+</config>
